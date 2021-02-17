@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Client</string>
+    <string name="_eq">=</string>
+    <string name="bind">Bind</string>
+    <string name="mul">*</string>
+    <string name="sub">-</string>
+    <string name="_eq2">=</string>
+    <string name="_div">/</string>
+    <string name="_add">+</string>
+    <string name="unbind">Unbind</string>
+</resources>
