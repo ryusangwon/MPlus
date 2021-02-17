@@ -20,7 +20,8 @@ import com.example.server.IServiceInterface;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    float ans;
+    String TAG = "Client_MainActivity";
     IServiceInterface myService;
     boolean isService = false;
 
@@ -29,24 +30,24 @@ public class MainActivity extends AppCompatActivity {
         public void onServiceConnected(ComponentName name, IBinder service) {
             isService = true;
             myService = IServiceInterface.Stub.asInterface(service);
-
             try {
                 myService.registerCallback(mCallback);
-            }catch (RemoteException e){
+            } catch (RemoteException e) {
                 e.printStackTrace();
             }
         }
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
+            myService = null;
             isService = false;
         }
     };
 
     IServiceCallback mCallback = new IServiceCallback.Stub() {
         @Override
-        public void onServiceStateChanged(int status) throws RemoteException {
-
+        public boolean isService() throws RemoteException {
+            return isService;
         }
     };
 
@@ -55,20 +56,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button bmul = findViewById(R.id.button_mul);
-        Button badd = findViewById(R.id.button_add);
-        Button bsub = findViewById(R.id.button_sub);
-        Button bdiv = findViewById(R.id.button_div);
-        Button bcalc = findViewById(R.id.button_calc);
-        Button bbind = findViewById(R.id.button_bind);
-        Button bubind = findViewById(R.id.button_unbind);
-
         EditText editText1 = findViewById(R.id.editText1);
         EditText editText2 = findViewById(R.id.editText2);
         TextView textView_result = findViewById(R.id.textView_result);
         TextView textView_sym = findViewById((R.id.textView_symb));
 
-
+        Button bbind = findViewById(R.id.button_bind);
         bbind.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, IServiceInterface.class);
@@ -78,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button bubind = findViewById(R.id.button_unbind);
         bubind.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 unbindService(mConnection);
@@ -87,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button badd = findViewById(R.id.button_add);
         badd.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (!isService) {
@@ -97,11 +92,16 @@ public class MainActivity extends AppCompatActivity {
                     int num2 = Integer.parseInt(editText2.getText().toString());
                     textView_result.setText("");
                     textView_sym.setText("+");
-                    //ans = myService.ADD(num1, num2);
+                    try {
+                        ans = myService.ADD(num1, num2);
+                    } catch (RemoteException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });
 
+        Button bsub = findViewById(R.id.button_sub);
         bsub.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (!isService) {
@@ -112,11 +112,16 @@ public class MainActivity extends AppCompatActivity {
                     int num2 = Integer.parseInt(editText2.getText().toString());
                     textView_result.setText("");
                     textView_sym.setText("-");
-                    //ans = myService.SUB(num1, num2);
+                    try {
+                        ans = myService.SUB(num1, num2);
+                    } catch (RemoteException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });
 
+        Button bmul = findViewById(R.id.button_mul);
         bmul.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (!isService) {
@@ -127,11 +132,16 @@ public class MainActivity extends AppCompatActivity {
                     int num2 = Integer.parseInt(editText2.getText().toString());
                     textView_result.setText("");
                     textView_sym.setText("X");
-                    //ans = myService.MUL(num1, num2);
+                    try {
+                        ans = myService.MUL(num1, num2);
+                    } catch (RemoteException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });
 
+        Button bdiv = findViewById(R.id.button_div);
         bdiv.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (!isService) {
@@ -142,11 +152,16 @@ public class MainActivity extends AppCompatActivity {
                     int num2 = Integer.parseInt(editText2.getText().toString());
                     textView_result.setText("");
                     textView_sym.setText("/");
-                    //ans = myService.DIV(num1, num2);
+                    try {
+                        ans = myService.DIV(num1, num2);
+                    } catch (RemoteException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });
 
+        Button bcalc = findViewById(R.id.button_calc);
         bcalc.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (!isService) {
@@ -154,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
                             "Not in service", Toast.LENGTH_LONG).show();
                     textView_result.setText(" ");
                 } else {
-                    //textView_result.setText(Float.toString(ans));
+                    textView_result.setText(Float.toString(ans));
                 }
             }
         });
