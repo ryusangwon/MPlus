@@ -9,6 +9,7 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (RemoteException e) {
                 e.printStackTrace();
             }
+            Log.d(TAG, "onServiceConnected: " + isService);
         }
 
         @Override
@@ -64,10 +66,12 @@ public class MainActivity extends AppCompatActivity {
         Button bbind = findViewById(R.id.button_bind);
         bbind.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, IServiceInterface.class);
+                Intent intent = new Intent("com.example.server.MY_SERVICE");
+                intent.setPackage("com.example.server");
                 bindService(intent, mConnection, Context.BIND_AUTO_CREATE);
                 Toast.makeText(getApplicationContext(),
                         "Service start", Toast.LENGTH_LONG).show();
+                Log.d(TAG, "onClick: ");
             }
         });
 
@@ -76,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 unbindService(mConnection);
                 isService = false;
+                textView_sym.setText("");
+                textView_result.setText("");
+                editText1.setText("");
+                editText2.setText("");
                 Toast.makeText(getApplicationContext(),
                         "Service closing", Toast.LENGTH_LONG).show();
             }
@@ -88,13 +96,16 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),
                             "Not in service", Toast.LENGTH_LONG).show();
                 } else {
-                    int num1 = Integer.parseInt(editText1.getText().toString());
-                    int num2 = Integer.parseInt(editText2.getText().toString());
                     textView_result.setText("");
                     textView_sym.setText("+");
+                    Log.d(TAG, "onClick: " + myService);
                     try {
+                        int num1 = Integer.parseInt(editText1.getText().toString());
+                        int num2 = Integer.parseInt(editText2.getText().toString());
                         ans = myService.ADD(num1, num2);
                     } catch (RemoteException e) {
+                        e.printStackTrace();
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
@@ -108,13 +119,15 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),
                             "Not in service", Toast.LENGTH_LONG).show();
                 } else {
-                    int num1 = Integer.parseInt(editText1.getText().toString());
-                    int num2 = Integer.parseInt(editText2.getText().toString());
                     textView_result.setText("");
                     textView_sym.setText("-");
                     try {
+                        int num1 = Integer.parseInt(editText1.getText().toString());
+                        int num2 = Integer.parseInt(editText2.getText().toString());
                         ans = myService.SUB(num1, num2);
                     } catch (RemoteException e) {
+                        e.printStackTrace();
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
@@ -128,13 +141,15 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),
                             "Not in service", Toast.LENGTH_LONG).show();
                 } else {
-                    int num1 = Integer.parseInt(editText1.getText().toString());
-                    int num2 = Integer.parseInt(editText2.getText().toString());
                     textView_result.setText("");
                     textView_sym.setText("X");
                     try {
+                        int num1 = Integer.parseInt(editText1.getText().toString());
+                        int num2 = Integer.parseInt(editText2.getText().toString());
                         ans = myService.MUL(num1, num2);
                     } catch (RemoteException e) {
+                        e.printStackTrace();
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
@@ -148,13 +163,15 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),
                             "Not in service", Toast.LENGTH_LONG).show();
                 } else {
-                    int num1 = Integer.parseInt(editText1.getText().toString());
-                    int num2 = Integer.parseInt(editText2.getText().toString());
                     textView_result.setText("");
                     textView_sym.setText("/");
                     try {
+                        int num1 = Integer.parseInt(editText1.getText().toString());
+                        int num2 = Integer.parseInt(editText2.getText().toString());
                         ans = myService.DIV(num1, num2);
                     } catch (RemoteException e) {
+                        e.printStackTrace();
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
                 }
@@ -169,11 +186,14 @@ public class MainActivity extends AppCompatActivity {
                             "Not in service", Toast.LENGTH_LONG).show();
                     textView_result.setText(" ");
                 } else {
-                    textView_result.setText(Float.toString(ans));
+                    try {
+                        textView_result.setText(Float.toString(ans));
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });
-
     }
 
     @Override
