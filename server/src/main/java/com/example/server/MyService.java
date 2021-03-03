@@ -14,6 +14,8 @@ public class MyService extends Service {
     IServiceInterface mServiceInterface;
     IServiceCallback mCallback;
 
+    String TAG = "MyServiceTag";
+
     public Binder mBinder = new IServiceInterface.Stub() {
         @Override
         public boolean isAvailable() throws RemoteException {

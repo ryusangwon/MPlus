@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ExampleInstrumentedTest	androidTest/java/com/example/server/ExampleInstrumentedTest.java	/^public class ExampleInstrumentedTest {$/;"	c
+ExampleUnitTest	test/java/com/example/server/ExampleUnitTest.java	/^public class ExampleUnitTest {$/;"	c
+MainActivity	main/java/com/example/server/MainActivity.java	/^public class MainActivity extends AppCompatActivity {$/;"	c
+MyService	main/java/com/example/server/MyService.java	/^    public MyService() throws RemoteException {$/;"	m	class:MyService
+MyService	main/java/com/example/server/MyService.java	/^public class MyService extends Service {$/;"	c
+addition_isCorrect	test/java/com/example/server/ExampleUnitTest.java	/^    public void addition_isCorrect() {$/;"	m	class:ExampleUnitTest
+com.example.server	androidTest/java/com/example/server/ExampleInstrumentedTest.java	/^package com.example.server;$/;"	p
+com.example.server	main/java/com/example/server/MainActivity.java	/^package com.example.server;$/;"	p
+com.example.server	main/java/com/example/server/MyService.java	/^package com.example.server;$/;"	p
+com.example.server	test/java/com/example/server/ExampleUnitTest.java	/^package com.example.server;$/;"	p
+mBinder	main/java/com/example/server/MyService.java	/^    public Binder mBinder = new IServiceInterface.Stub() {$/;"	f	class:MyService
+mCallback	main/java/com/example/server/MainActivity.java	/^    IServiceCallback mCallback;$/;"	f	class:MainActivity
+mCallback	main/java/com/example/server/MyService.java	/^    IServiceCallback mCallback;$/;"	f	class:MyService
+mServiceInterface	main/java/com/example/server/MyService.java	/^    IServiceInterface mServiceInterface;$/;"	f	class:MyService
+onBind	main/java/com/example/server/MyService.java	/^    public IBinder onBind(Intent intent) {$/;"	m	class:MyService
+onCreate	main/java/com/example/server/MainActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:MainActivity
+onCreate	main/java/com/example/server/MyService.java	/^    public void onCreate() {$/;"	m	class:MyService
+onDestroy	main/java/com/example/server/MyService.java	/^    public void onDestroy() {$/;"	m	class:MyService
+onStartCommand	main/java/com/example/server/MyService.java	/^    public int onStartCommand(Intent intent, int flags, int startId) {$/;"	m	class:MyService
+useAppContext	androidTest/java/com/example/server/ExampleInstrumentedTest.java	/^    public void useAppContext() {$/;"	m	class:ExampleInstrumentedTest
