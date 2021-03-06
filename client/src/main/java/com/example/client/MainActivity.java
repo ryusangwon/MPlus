@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     float ans;
     String TAG = "Client_MainActivity";
-    
+
     IServiceInterface myService;
     boolean isService = false;
 

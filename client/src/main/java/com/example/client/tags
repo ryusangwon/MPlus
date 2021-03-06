@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MainActivity	MainActivity.java	/^public class MainActivity extends AppCompatActivity {$/;"	c
+TAG	MainActivity.java	/^    String TAG = "Client_MainActivity";$/;"	f	class:MainActivity
+ans	MainActivity.java	/^    float ans;$/;"	f	class:MainActivity
+com.example.client	MainActivity.java	/^package com.example.client;$/;"	p
+isService	MainActivity.java	/^    boolean isService = false;$/;"	f	class:MainActivity
+mCallback	MainActivity.java	/^    IServiceCallback mCallback = new IServiceCallback.Stub() {$/;"	f	class:MainActivity
+mConnection	MainActivity.java	/^    final ServiceConnection mConnection = new ServiceConnection() {$/;"	f	class:MainActivity
+myService	MainActivity.java	/^    IServiceInterface myService;$/;"	f	class:MainActivity
+onCreate	MainActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:MainActivity
+onDestroy	MainActivity.java	/^    protected void onDestroy() {$/;"	m	class:MainActivity

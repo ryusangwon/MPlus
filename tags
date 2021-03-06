@@ -1,0 +1,217 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public int ADD(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+ADD	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public int ADD(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+ADD	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public int ADD(int num1, int num2) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+ADD	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public int ADD(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+ADD	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public int ADD(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+ADD	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public int ADD(int num1, int num2) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+APPLICATION_ID	client/build/generated/source/buildConfig/debug/com/example/client/BuildConfig.java	/^  public static final String APPLICATION_ID = "com.example.client";$/;"	f	class:BuildConfig
+APPLICATION_ID	server/build/generated/source/buildConfig/debug/com/example/server/BuildConfig.java	/^  public static final String APPLICATION_ID = "com.example.server";$/;"	f	class:BuildConfig
+APP_BASE_NAME	gradlew.bat	/^set APP_BASE_NAME=%~n0$/;"	v
+APP_HOME	gradlew.bat	/^set APP_HOME=%DIRNAME%$/;"	v
+BUILD_TYPE	client/build/generated/source/buildConfig/debug/com/example/client/BuildConfig.java	/^  public static final String BUILD_TYPE = "debug";$/;"	f	class:BuildConfig
+BUILD_TYPE	server/build/generated/source/buildConfig/debug/com/example/server/BuildConfig.java	/^  public static final String BUILD_TYPE = "debug";$/;"	f	class:BuildConfig
+BuildConfig	client/build/generated/source/buildConfig/debug/com/example/client/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+BuildConfig	server/build/generated/source/buildConfig/debug/com/example/server/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+CLASSPATH	gradlew.bat	/^set CLASSPATH=%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=%*$/;"	v
+DEBUG	client/build/generated/source/buildConfig/debug/com/example/client/BuildConfig.java	/^  public static final boolean DEBUG = Boolean.parseBoolean("true");$/;"	f	class:BuildConfig
+DEBUG	server/build/generated/source/buildConfig/debug/com/example/server/BuildConfig.java	/^  public static final boolean DEBUG = Boolean.parseBoolean("true");$/;"	f	class:BuildConfig
+DEFAULT_JVM_OPTS	gradlew.bat	/^set DEFAULT_JVM_OPTS=$/;"	v
+DESCRIPTOR	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    private static final java.lang.String DESCRIPTOR = "com.example.server.IServiceCallback";$/;"	f	class:IServiceCallback.Stub	file:
+DESCRIPTOR	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    private static final java.lang.String DESCRIPTOR = "com.example.server.IServiceInterface";$/;"	f	class:IServiceInterface.Stub	file:
+DESCRIPTOR	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    private static final java.lang.String DESCRIPTOR = "com.example.server.IServiceCallback";$/;"	f	class:IServiceCallback.Stub	file:
+DESCRIPTOR	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    private static final java.lang.String DESCRIPTOR = "com.example.server.IServiceInterface";$/;"	f	class:IServiceInterface.Stub	file:
+DIRNAME	gradlew.bat	/^if "%DIRNAME%" == "" set DIRNAME=.$/;"	v
+DIRNAME	gradlew.bat	/^set DIRNAME=%~dp0$/;"	v
+DIV	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public float DIV(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+DIV	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public float DIV(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+DIV	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public float DIV(int num1, int num2) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+DIV	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public float DIV(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+DIV	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public float DIV(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+DIV	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public float DIV(int num1, int num2) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+Default	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^  public static class Default implements com.example.server.IServiceCallback$/;"	c	interface:IServiceCallback
+Default	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public static class Default implements com.example.server.IServiceInterface$/;"	c	interface:IServiceInterface
+Default	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^  public static class Default implements com.example.server.IServiceCallback$/;"	c	interface:IServiceCallback
+Default	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public static class Default implements com.example.server.IServiceInterface$/;"	c	interface:IServiceInterface
+ExampleInstrumentedTest	client/src/androidTest/java/com/example/client/ExampleInstrumentedTest.java	/^public class ExampleInstrumentedTest {$/;"	c
+ExampleInstrumentedTest	server/src/androidTest/java/com/example/server/ExampleInstrumentedTest.java	/^public class ExampleInstrumentedTest {$/;"	c
+ExampleUnitTest	client/src/test/java/com/example/client/ExampleUnitTest.java	/^public class ExampleUnitTest {$/;"	c
+ExampleUnitTest	server/src/test/java/com/example/server/ExampleUnitTest.java	/^public class ExampleUnitTest {$/;"	c
+IServiceCallback	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^public interface IServiceCallback extends android.os.IInterface$/;"	i
+IServiceCallback	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^public interface IServiceCallback extends android.os.IInterface$/;"	i
+IServiceInterface	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^public interface IServiceInterface extends android.os.IInterface$/;"	i
+IServiceInterface	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^public interface IServiceInterface extends android.os.IInterface$/;"	i
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=%JAVA_HOME%\/bin\/java.exe$/;"	v
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=java.exe$/;"	v
+JAVA_HOME	gradlew.bat	/^set JAVA_HOME=%JAVA_HOME:"=%$/;"	v
+MUL	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public int MUL(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+MUL	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public int MUL(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+MUL	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public int MUL(int num1, int num2) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+MUL	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public int MUL(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+MUL	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public int MUL(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+MUL	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public int MUL(int num1, int num2) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+MainActivity	client/src/main/java/com/example/client/MainActivity.java	/^public class MainActivity extends AppCompatActivity {$/;"	c
+MainActivity	server/src/main/java/com/example/server/MainActivity.java	/^public class MainActivity extends AppCompatActivity {$/;"	c
+MyService	server/src/main/java/com/example/server/MyService.java	/^    public MyService() throws RemoteException {$/;"	m	class:MyService
+MyService	server/src/main/java/com/example/server/MyService.java	/^public class MyService extends Service {$/;"	c
+Proxy	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      Proxy(android.os.IBinder remote)$/;"	m	class:IServiceCallback.Stub.Proxy
+Proxy	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    private static class Proxy implements com.example.server.IServiceCallback$/;"	c	class:IServiceCallback.Stub
+Proxy	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      Proxy(android.os.IBinder remote)$/;"	m	class:IServiceInterface.Stub.Proxy
+Proxy	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    private static class Proxy implements com.example.server.IServiceInterface$/;"	c	class:IServiceInterface.Stub
+Proxy	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      Proxy(android.os.IBinder remote)$/;"	m	class:IServiceCallback.Stub.Proxy
+Proxy	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    private static class Proxy implements com.example.server.IServiceCallback$/;"	c	class:IServiceCallback.Stub
+Proxy	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      Proxy(android.os.IBinder remote)$/;"	m	class:IServiceInterface.Stub.Proxy
+Proxy	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    private static class Proxy implements com.example.server.IServiceInterface$/;"	c	class:IServiceInterface.Stub
+SUB	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public int SUB(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+SUB	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public int SUB(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+SUB	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public int SUB(int num1, int num2) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+SUB	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public int SUB(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+SUB	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public int SUB(int num1, int num2) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+SUB	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public int SUB(int num1, int num2) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+Stub	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public Stub()$/;"	m	class:IServiceCallback.Stub
+Stub	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^  public static abstract class Stub extends android.os.Binder implements com.example.server.IServiceCallback$/;"	c	interface:IServiceCallback
+Stub	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public Stub()$/;"	m	class:IServiceInterface.Stub
+Stub	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public static abstract class Stub extends android.os.Binder implements com.example.server.IServiceInterface$/;"	c	interface:IServiceInterface
+Stub	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public Stub()$/;"	m	class:IServiceCallback.Stub
+Stub	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^  public static abstract class Stub extends android.os.Binder implements com.example.server.IServiceCallback$/;"	c	interface:IServiceCallback
+Stub	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public Stub()$/;"	m	class:IServiceInterface.Stub
+Stub	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public static abstract class Stub extends android.os.Binder implements com.example.server.IServiceInterface$/;"	c	interface:IServiceInterface
+TAG	client/src/main/java/com/example/client/MainActivity.java	/^    String TAG = "Client_MainActivity";$/;"	f	class:MainActivity
+TAG	server/src/main/java/com/example/server/MyService.java	/^    String TAG = "MyServiceTag";$/;"	f	class:MyService
+TRANSACTION_ADD	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_ADD = (android.os.IBinder.FIRST_CALL_TRANSACTION + 3);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_ADD	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_ADD = (android.os.IBinder.FIRST_CALL_TRANSACTION + 3);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_DIV	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_DIV = (android.os.IBinder.FIRST_CALL_TRANSACTION + 6);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_DIV	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_DIV = (android.os.IBinder.FIRST_CALL_TRANSACTION + 6);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_MUL	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_MUL = (android.os.IBinder.FIRST_CALL_TRANSACTION + 5);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_MUL	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_MUL = (android.os.IBinder.FIRST_CALL_TRANSACTION + 5);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_SUB	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_SUB = (android.os.IBinder.FIRST_CALL_TRANSACTION + 4);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_SUB	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_SUB = (android.os.IBinder.FIRST_CALL_TRANSACTION + 4);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_isAvailable	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_isAvailable = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_isAvailable	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_isAvailable = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_isService	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    static final int TRANSACTION_isService = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);$/;"	f	class:IServiceCallback.Stub
+TRANSACTION_isService	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    static final int TRANSACTION_isService = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);$/;"	f	class:IServiceCallback.Stub
+TRANSACTION_registerCallback	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_registerCallback = (android.os.IBinder.FIRST_CALL_TRANSACTION + 1);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_registerCallback	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_registerCallback = (android.os.IBinder.FIRST_CALL_TRANSACTION + 1);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_unregisterCallback	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_unregisterCallback = (android.os.IBinder.FIRST_CALL_TRANSACTION + 2);$/;"	f	class:IServiceInterface.Stub
+TRANSACTION_unregisterCallback	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    static final int TRANSACTION_unregisterCallback = (android.os.IBinder.FIRST_CALL_TRANSACTION + 2);$/;"	f	class:IServiceInterface.Stub
+VERSION_CODE	client/build/generated/source/buildConfig/debug/com/example/client/BuildConfig.java	/^  public static final int VERSION_CODE = 1;$/;"	f	class:BuildConfig
+VERSION_CODE	server/build/generated/source/buildConfig/debug/com/example/server/BuildConfig.java	/^  public static final int VERSION_CODE = 1;$/;"	f	class:BuildConfig
+VERSION_NAME	client/build/generated/source/buildConfig/debug/com/example/client/BuildConfig.java	/^  public static final String VERSION_NAME = "1.0";$/;"	f	class:BuildConfig
+VERSION_NAME	server/build/generated/source/buildConfig/debug/com/example/server/BuildConfig.java	/^  public static final String VERSION_NAME = "1.0";$/;"	f	class:BuildConfig
+_SKIP	gradlew.bat	/^set _SKIP=2$/;"	v
+addition_isCorrect	client/src/test/java/com/example/client/ExampleUnitTest.java	/^    public void addition_isCorrect() {$/;"	m	class:ExampleUnitTest
+addition_isCorrect	server/src/test/java/com/example/server/ExampleUnitTest.java	/^    public void addition_isCorrect() {$/;"	m	class:ExampleUnitTest
+ans	client/src/main/java/com/example/client/MainActivity.java	/^    float ans;$/;"	f	class:MainActivity
+asBinder	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      @Override public android.os.IBinder asBinder()$/;"	m	class:IServiceCallback.Stub.Proxy
+asBinder	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    @Override public android.os.IBinder asBinder()$/;"	m	class:IServiceCallback.Stub
+asBinder	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public android.os.IBinder asBinder() {$/;"	m	class:IServiceCallback.Default
+asBinder	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public android.os.IBinder asBinder()$/;"	m	class:IServiceInterface.Stub.Proxy
+asBinder	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public android.os.IBinder asBinder()$/;"	m	class:IServiceInterface.Stub
+asBinder	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public android.os.IBinder asBinder() {$/;"	m	class:IServiceInterface.Default
+asBinder	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      @Override public android.os.IBinder asBinder()$/;"	m	class:IServiceCallback.Stub.Proxy
+asBinder	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    @Override public android.os.IBinder asBinder()$/;"	m	class:IServiceCallback.Stub
+asBinder	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public android.os.IBinder asBinder() {$/;"	m	class:IServiceCallback.Default
+asBinder	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public android.os.IBinder asBinder()$/;"	m	class:IServiceInterface.Stub.Proxy
+asBinder	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public android.os.IBinder asBinder()$/;"	m	class:IServiceInterface.Stub
+asBinder	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public android.os.IBinder asBinder() {$/;"	m	class:IServiceInterface.Default
+asInterface	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public static com.example.server.IServiceCallback asInterface(android.os.IBinder obj)$/;"	m	class:IServiceCallback.Stub
+asInterface	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public static com.example.server.IServiceInterface asInterface(android.os.IBinder obj)$/;"	m	class:IServiceInterface.Stub
+asInterface	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public static com.example.server.IServiceCallback asInterface(android.os.IBinder obj)$/;"	m	class:IServiceCallback.Stub
+asInterface	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public static com.example.server.IServiceInterface asInterface(android.os.IBinder obj)$/;"	m	class:IServiceInterface.Stub
+com.example.client	client/build/generated/source/buildConfig/debug/com/example/client/BuildConfig.java	/^package com.example.client;$/;"	p
+com.example.client	client/src/androidTest/java/com/example/client/ExampleInstrumentedTest.java	/^package com.example.client;$/;"	p
+com.example.client	client/src/main/java/com/example/client/MainActivity.java	/^package com.example.client;$/;"	p
+com.example.client	client/src/test/java/com/example/client/ExampleUnitTest.java	/^package com.example.client;$/;"	p
+com.example.server	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^package com.example.server;$/;"	p
+com.example.server	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^package com.example.server;$/;"	p
+com.example.server	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^package com.example.server;$/;"	p
+com.example.server	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^package com.example.server;$/;"	p
+com.example.server	server/build/generated/source/buildConfig/debug/com/example/server/BuildConfig.java	/^package com.example.server;$/;"	p
+com.example.server	server/src/androidTest/java/com/example/server/ExampleInstrumentedTest.java	/^package com.example.server;$/;"	p
+com.example.server	server/src/main/java/com/example/server/MainActivity.java	/^package com.example.server;$/;"	p
+com.example.server	server/src/main/java/com/example/server/MyService.java	/^package com.example.server;$/;"	p
+com.example.server	server/src/test/java/com/example/server/ExampleUnitTest.java	/^package com.example.server;$/;"	p
+die	gradlew	/^die () {$/;"	f
+end	gradlew.bat	/^:end$/;"	l
+execute	gradlew.bat	/^:execute$/;"	l
+fail	gradlew.bat	/^:fail$/;"	l
+findJavaFromJavaHome	gradlew.bat	/^:findJavaFromJavaHome$/;"	l
+getDefaultImpl	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public static com.example.server.IServiceCallback getDefaultImpl() {$/;"	m	class:IServiceCallback.Stub
+getDefaultImpl	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public static com.example.server.IServiceInterface getDefaultImpl() {$/;"	m	class:IServiceInterface.Stub
+getDefaultImpl	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public static com.example.server.IServiceCallback getDefaultImpl() {$/;"	m	class:IServiceCallback.Stub
+getDefaultImpl	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public static com.example.server.IServiceInterface getDefaultImpl() {$/;"	m	class:IServiceInterface.Stub
+getInterfaceDescriptor	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      public java.lang.String getInterfaceDescriptor()$/;"	m	class:IServiceCallback.Stub.Proxy
+getInterfaceDescriptor	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      public java.lang.String getInterfaceDescriptor()$/;"	m	class:IServiceInterface.Stub.Proxy
+getInterfaceDescriptor	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      public java.lang.String getInterfaceDescriptor()$/;"	m	class:IServiceCallback.Stub.Proxy
+getInterfaceDescriptor	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      public java.lang.String getInterfaceDescriptor()$/;"	m	class:IServiceInterface.Stub.Proxy
+init	gradlew.bat	/^:init$/;"	l
+isAvailable	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public boolean isAvailable() throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+isAvailable	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public boolean isAvailable() throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+isAvailable	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public boolean isAvailable() throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+isAvailable	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public boolean isAvailable() throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+isAvailable	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public boolean isAvailable() throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+isAvailable	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public boolean isAvailable() throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+isService	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      @Override public boolean isService() throws android.os.RemoteException$/;"	m	class:IServiceCallback.Stub.Proxy
+isService	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    @Override public boolean isService() throws android.os.RemoteException$/;"	m	class:IServiceCallback.Default
+isService	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^  public boolean isService() throws android.os.RemoteException;$/;"	m	interface:IServiceCallback
+isService	client/src/main/java/com/example/client/MainActivity.java	/^    boolean isService = false;$/;"	f	class:MainActivity
+isService	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      @Override public boolean isService() throws android.os.RemoteException$/;"	m	class:IServiceCallback.Stub.Proxy
+isService	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    @Override public boolean isService() throws android.os.RemoteException$/;"	m	class:IServiceCallback.Default
+isService	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^  public boolean isService() throws android.os.RemoteException;$/;"	m	interface:IServiceCallback
+mBinder	server/src/main/java/com/example/server/MyService.java	/^    public Binder mBinder = new IServiceInterface.Stub() {$/;"	f	class:MyService
+mCallback	client/src/main/java/com/example/client/MainActivity.java	/^    IServiceCallback mCallback = new IServiceCallback.Stub() {$/;"	f	class:MainActivity
+mCallback	server/src/main/java/com/example/server/MainActivity.java	/^    IServiceCallback mCallback;$/;"	f	class:MainActivity
+mCallback	server/src/main/java/com/example/server/MyService.java	/^    IServiceCallback mCallback;$/;"	f	class:MyService
+mConnection	client/src/main/java/com/example/client/MainActivity.java	/^    final ServiceConnection mConnection = new ServiceConnection() {$/;"	f	class:MainActivity
+mRemote	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      private android.os.IBinder mRemote;$/;"	f	class:IServiceCallback.Stub.Proxy	file:
+mRemote	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      private android.os.IBinder mRemote;$/;"	f	class:IServiceInterface.Stub.Proxy	file:
+mRemote	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      private android.os.IBinder mRemote;$/;"	f	class:IServiceCallback.Stub.Proxy	file:
+mRemote	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      private android.os.IBinder mRemote;$/;"	f	class:IServiceInterface.Stub.Proxy	file:
+mServiceInterface	server/src/main/java/com/example/server/MyService.java	/^    IServiceInterface mServiceInterface;$/;"	f	class:MyService
+mainEnd	gradlew.bat	/^:mainEnd$/;"	l
+myService	client/src/main/java/com/example/client/MainActivity.java	/^    IServiceInterface myService;$/;"	f	class:MainActivity
+omega	gradlew.bat	/^:omega$/;"	l
+onBind	server/src/main/java/com/example/server/MyService.java	/^    public IBinder onBind(Intent intent) {$/;"	m	class:MyService
+onCreate	client/src/main/java/com/example/client/MainActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:MainActivity
+onCreate	server/src/main/java/com/example/server/MainActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:MainActivity
+onCreate	server/src/main/java/com/example/server/MyService.java	/^    public void onCreate() {$/;"	m	class:MyService
+onDestroy	client/src/main/java/com/example/client/MainActivity.java	/^    protected void onDestroy() {$/;"	m	class:MainActivity
+onDestroy	server/src/main/java/com/example/server/MyService.java	/^    public void onDestroy() {$/;"	m	class:MyService
+onStartCommand	server/src/main/java/com/example/server/MyService.java	/^    public int onStartCommand(Intent intent, int flags, int startId) {$/;"	m	class:MyService
+onTransact	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException$/;"	m	class:IServiceCallback.Stub
+onTransact	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub
+onTransact	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException$/;"	m	class:IServiceCallback.Stub
+onTransact	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub
+registerCallback	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public boolean registerCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+registerCallback	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public boolean registerCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+registerCallback	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public boolean registerCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+registerCallback	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public boolean registerCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+registerCallback	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public boolean registerCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+registerCallback	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public boolean registerCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+sDefaultImpl	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      public static com.example.server.IServiceCallback sDefaultImpl;$/;"	f	class:IServiceCallback.Stub.Proxy
+sDefaultImpl	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      public static com.example.server.IServiceInterface sDefaultImpl;$/;"	f	class:IServiceInterface.Stub.Proxy
+sDefaultImpl	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^      public static com.example.server.IServiceCallback sDefaultImpl;$/;"	f	class:IServiceCallback.Stub.Proxy
+sDefaultImpl	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      public static com.example.server.IServiceInterface sDefaultImpl;$/;"	f	class:IServiceInterface.Stub.Proxy
+save	gradlew	/^save () {$/;"	f
+setDefaultImpl	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public static boolean setDefaultImpl(com.example.server.IServiceCallback impl) {$/;"	m	class:IServiceCallback.Stub
+setDefaultImpl	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public static boolean setDefaultImpl(com.example.server.IServiceInterface impl) {$/;"	m	class:IServiceInterface.Stub
+setDefaultImpl	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceCallback.java	/^    public static boolean setDefaultImpl(com.example.server.IServiceCallback impl) {$/;"	m	class:IServiceCallback.Stub
+setDefaultImpl	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    public static boolean setDefaultImpl(com.example.server.IServiceInterface impl) {$/;"	m	class:IServiceInterface.Stub
+unregisterCallback	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public boolean unregisterCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+unregisterCallback	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public boolean unregisterCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+unregisterCallback	client/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public boolean unregisterCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+unregisterCallback	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^      @Override public boolean unregisterCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Stub.Proxy
+unregisterCallback	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^    @Override public boolean unregisterCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException$/;"	m	class:IServiceInterface.Default
+unregisterCallback	server/build/generated/aidl_source_output_dir/debug/out/com/example/server/IServiceInterface.java	/^  public boolean unregisterCallback(com.example.server.IServiceCallback callback) throws android.os.RemoteException;$/;"	m	interface:IServiceInterface
+useAppContext	client/src/androidTest/java/com/example/client/ExampleInstrumentedTest.java	/^    public void useAppContext() {$/;"	m	class:ExampleInstrumentedTest
+useAppContext	server/src/androidTest/java/com/example/server/ExampleInstrumentedTest.java	/^    public void useAppContext() {$/;"	m	class:ExampleInstrumentedTest
+warn	gradlew	/^warn () {$/;"	f
+win9xME_args	gradlew.bat	/^:win9xME_args$/;"	l
+win9xME_args_slurp	gradlew.bat	/^:win9xME_args_slurp$/;"	l
