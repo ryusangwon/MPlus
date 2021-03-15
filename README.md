@@ -1,5 +1,5 @@
-## MPlus
+## Mobile Plus
 
-Interact client side and service side by AiDL
+Interact client and service by AIDL
 
 > -HMSL-
